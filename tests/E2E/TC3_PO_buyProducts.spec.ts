@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import { ShopPage } from '/PlaywrightDemo/pageObjects/cartPage';
+import { ShopPage } from '/PlaywrightTypeScript/pageObjects/cartPage';
 
 test('Test case 3: Buy 2 Stuffed Frog, 5 Fluffy Bunny, 3 Valentine Bear', async ({ page }) => {
   const shopPage = new ShopPage(page);

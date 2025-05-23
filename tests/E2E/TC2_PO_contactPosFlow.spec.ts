@@ -1,5 +1,5 @@
 import { test, expect, Page } from '@playwright/test';
-import { ContactPage } from '/PlaywrightDemo/pageObjects/contactPage'; // Adjust path as needed
+import { ContactPage } from '/PlaywrightTypeScript/pageObjects/contactPage'; // Adjust path as needed
 
 test('Contact Error Validation', async ({ page }: { page: Page }) => {
   const contactPage = new ContactPage(page);
