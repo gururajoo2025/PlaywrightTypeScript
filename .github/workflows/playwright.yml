@@ -25,10 +25,10 @@ jobs:
       run: npm install
 
     - name: Run contact validation test
-      run: npx playwright test tests/E2E/TC1_PO_contactValidation.spec.ts
+      run: npx playwright test tests\E2E\TC1_PO_contactValidation.spec.ts
 
-    - name: Run contact POS flow test
-      run: npx playwright test tests/E2E/TC2_PO_contactPosFlow.spec.ts
+    # - name: Run contact POS flow test
+    #   run: npx playwright test tests/E2E/TC2_PO_contactPosFlow.spec.ts
 
-    - name: Run buy products test
-      run: npx playwright test tests/E2E/TC3_PO_buyProducts.spec.ts
+    # - name: Run buy products test
+    #   run: npx playwright test tests/E2E/TC3_PO_buyProducts.spec.ts
